@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/script.js" defer></script>
+    <title>Paten Travel</title>
+</head>
+<body>
+    <header>
+        <!-- NAV SECTION -->
+        <section id="headerNav">
+            <div class="logo">
+                <img src="/assets/logo.jpg" alt="Logo">
+                <span>Paten Travel</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="home" href="/index.html">Home</a>
+                        <a class="package02" href="#package-text">Package</a>
+                        <a class="contact" href="#yname">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!-- TITLE SECTION -->
+        <section id="headerTitle">
+            <h1 class="title01">Your Trusted Travel Agent's</h1>
+            <h4 class="title02">Your happiness is our happiness</h4>
+        </section>
+    </header>
+        <!-- MAIN SECTION -->
+    <main>
+        <section id="mainSection">
+            <!-- LEFT COLUMN SECTION -->
+            <div class="article-container">
+                <div class="left-column">
+                  <div class="slider">
+                    <img src="/assets/wisata02.jpg" alt="singapore">
+                    <img src="/assets/wisata03.jpg" alt="japan">
+                    <img src="/assets/wisata05.jpg" alt="bali">
+                  </div>
+                </div>
+                  <p class="text-img">"Liburan menjadi menyenangkan bersama Paten Travel"</p>
+                <div class="profile-container">
+                    <img src="/assets/profile.jpg" alt="profile">
+                    <div class="profile-text">
+                        <p>Fiorences Hughes</p>
+                        <p>Ibu Rumah Tangga, 28</p>
+                    </div>
+                </div>
+                <div class="text-left-article">
+                    <h3>Use this space to provide users with more information</h3>
+                    <h3>about your offer. Consider it a follow-up to your headline</h3>
+                    <h3>and explain the benefits of your service or product</h3>
+                    <ul>
+                        <li>Your first feature, written in the form of a benefit statement.</li>
+                        <li>Your second feature, written in the form of a benefit statement.</li>
+                        <li>Your third feature, written in the form of a benefit statement.</li>
+                    </ul>
+
+                </div>
+            </div>
+             <!-- RIGHT COLUMN SECTION -->
+            <div class="right-column">
+                <div id="contactForm">
+                    <h2 class="contact-text">Contact Us</h2>
+                    <h5>Marketing kami akan menghubungi anda 1x24 Jam setelah data kami terima.</h5>
+                    <form action="" onsubmit="return validateForm()">
+                        <label for="yname">Your Name:</label><br>
+                        <input type="text" id="yname" name="yname" required class="form-input" placeholder="first name and last name"><br>
+                        <label for="email">Email Address:</label><br>
+                        <input type="text" id="email" name="email" required class="form-input" placeholder="example@email.com"><br>
+                        <label for="option">What are you interested in:</label><br>
+                        <select id="interest" name="interest" class="form-input">
+                            <option value="bali">Bali</option>
+                            <option value="japan">Japan</option>        
+                            <option value="singapore">Singapore</option>        
+                            <option value="bandung">Bandung</option>         
+                            <option value="yogyakarta">Yogyakarta</option>
+                        </select><br><br>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea><br><br>
+                        <button type="submit">SEND</button>
+                    </form>   
+                </div>
+            </div>    
+        </section>
+        <div id="package-text">
+            <h1>Our Package</h1>
+        </div>
+    </main>
+        <!-- OUR PACKAGE SECTION -->
+    <section>
+        <div class="package-container">
+            <div class="package">
+              <h2>Bali</h2>
+              <p>Travel dan wisata ke Bali. Kunjungi dan nikmati keindahan lautan seperti di surga dan sangat cocok untuk berbulan madu.</p>
+            </div>
+            <div class="package">
+              <h2>Japan</h2>
+              <p>Travel dan wisata ke Japan. Kunjungi dan nikmati kota Tokyo dengan berbagai kuliner serta kartun menarik.</p>
+            </div>
+            <div class="package">
+              <h2>Singapore</h2>
+              <p>Travel dan wisata ke Singapore. Kunjungi dan nikmati negara "macan" nya Asia.</p>
+            </div>
+            <div class="package">
+              <h2>Bandung</h2>
+              <p>Travel dan wisata ke Bandung. Kunjungi dan nikmati keindahan serta kuliner yang unik dan enak tentunya.</p>
+            </div>
+            <div class="package">
+              <h2>Yogyakarta</h2>
+              <p>Travel dan wisata ke Yogyakarta. Kunjungi dan nikmati kota istimewa Indonesia dengan berbagai budaya dan kuliner yang menarik.</p>
+            </div>
+        </div>
+        <div id="closing-text">
+            <h1>Your Closing Arguments Headline</h1>
+            <p>Lewati batasan dan jelajahi perbedaan melalui Paten travel ini tentu nya. Marilah kita bangun jembatan kebahagiaan dan pemahaman antara budaya-budaya yang berbeda, karena di dalam keberagaman itulah kita menemukan kekayaan sejati.</p>
+            <nav class="contact-button-container">
+                <a href="#" class="contact-button">Contact Us</a>
+            </nav>            
+        </div>            
+    </section>
+</body>
+        <!-- FOOTER SECTION -->
+<footer>
+    <div>
+      Terms of Service | Privacy Policy
+    </div>
+    <div>
+      &copy; 2023 Paten Travel. All rights reserved.
+    </div>
+  </footer>  
+</html>

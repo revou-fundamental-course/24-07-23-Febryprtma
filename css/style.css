@@ -1,0 +1,351 @@
+/* HEADER SECTION STYLING */
+
+#headerNav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+  
+nav ul li {
+    margin-left: 20px;
+}
+  
+nav ul li:first-child {
+    margin-left: 0;
+}
+  
+  /* Styling for navigation (buttons) */
+nav ul li a {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+  
+.logo img {
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+  
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+
+#headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title01 {
+    font-size: 44px;
+}
+
+.title02 {
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: #fbfcf7fd;
+}
+
+/* MAIN SECTION STYLING */
+
+#mainSection{
+    display: flex;
+}
+
+/* Styling for the article container */
+.article-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+}
+  
+/* Styling for the left column */
+.left-column {
+    flex-basis: 50%;
+}
+  
+.left-column .slider {
+    position: relative;
+    width: 550px;
+    max-width: 550px;
+    height: 350px;
+    overflow: hidden;
+}
+  
+/* Styling for the slider images */
+.left-column .slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+  
+.left-column .slider img.active {
+    opacity: 1;
+}
+
+/* Styling for the text-left-article section */
+.text-left-article {
+    margin-top: 40px;
+}
+
+.text-left-article h3 {
+    font-size: 20px;
+    margin: 3px 0;
+}
+
+.text-left-article ul {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.text-left-article li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+/* Styling for the right column */
+.right-column {
+    flex-basis: 35%;
+    margin-top: 15px;
+    margin-right: 14px;
+}
+
+.text-img {
+    margin-left: 85px;
+    color: #fbfcf7fd;
+}
+
+#contactForm{
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: #5caad4;
+    border-radius: 8px;
+    color: white;
+    padding: 9px;
+}
+
+.contact-text {
+    color: black;
+}
+
+/* Styling for form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label,
+form select,
+form textarea {
+    margin-bottom: 1px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="text"],
+    textarea {
+      font-size: 18px;
+}
+
+.form-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+form label {
+    font-size: 18px;
+    color: black;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #749BC2;
+  }
+
+#package-text{
+    display: flex;
+    justify-content: center;
+    background-color: #0D1282;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+/* Styling for the profile container */
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.profile-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Styling for package container */
+.package-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+  
+  /* Styling for package */
+.package {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #5caad4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+  }
+  
+.package h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.package p {
+    font-size: 16px;
+}
+
+#closing-text {
+    display: flex;
+    border-top: 2px solid black;
+    padding: 35px ;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+/* Styling for the "Contact Us" button container */
+.contact-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding-top: 35px;
+}
+  
+  /* Styling for the "Contact Us" button */
+.contact-button {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 12px;
+    color: white
+
+}
+
+/* RESPONSIVE SECTION STYLING */
+
+@media screen and (max-width: 600px) {
+    #headerNav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .logo {
+      margin-bottom: 20px;
+    }
+    
+    nav ul li {
+      margin: 5px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    #mainSection {
+      flex-direction: column;
+    }
+  
+    .right-column {
+      order: 2;
+    }
+  }
+  
