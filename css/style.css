@@ -336,16 +336,15 @@ footer {
     
     nav ul li {
       margin: 5px;
+    
     }
-  }
 
-@media screen and (max-width: 600px) {
     #mainSection {
       flex-direction: column;
-    }
-  
+      }
+    
     .right-column {
       order: 2;
     }
   }
-  
+
